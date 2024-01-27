@@ -80,7 +80,7 @@
 
 
 
-.overlay{
+.overlay {
     
     
     min-height: 100%;
@@ -144,10 +144,6 @@
     grid-column: 1;
     letter-spacing: 30px;
     padding: 29px 0 0 634px;
-}
-
-.no-letter-spacing {
-    letter-spacing: 60px;
 }
 
 .cover__description {
