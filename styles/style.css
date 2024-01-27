@@ -4,7 +4,7 @@
     height: 105px;
     display: grid;
     grid-template-columns: 1fr 148px 1fr;
-    margin: 92px 24px 96px 24px;  
+    margin: 92px 24px 96px 24px;
 }
 
 .header-menu-list {
@@ -94,10 +94,10 @@
 .aligned-text {
     padding: 164px 0 0 50px;
     grid-row: 1;
-    grid-column: 1; 
+    grid-column: 1;
 }
 
-.no-letter-spacing { 
+.no-letter-spacing {
   letter-spacing: 60px;
 }
 
@@ -216,7 +216,7 @@
     text-transform: uppercase;
 }
 
-.card__text { 
+.card__text {
     color: #FFF;
     font-size: 20px;
 }
@@ -263,7 +263,7 @@
     padding-top: 3px;
     flex-direction: column;
     gap: 24px;
-    margin: 100px 0px 0px 25px; 
+    margin: 100px 0px 0px 25px;
 }
 
 .about__title {
