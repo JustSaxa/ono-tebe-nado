@@ -185,7 +185,7 @@
     flex-direction: column;
     justify-content: space-between;
     width: 334px;
-    height: 563px;
+    min-height: 563px; /* надеюсь правильно в прошлом ревью было указано, что нужна из макета брать размер height: 563px; */
 }
 
 .card-link {
