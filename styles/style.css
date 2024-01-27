@@ -1,7 +1,6 @@
 /* место для вашего кода */
 .header {
     font-size: 18px;
- 
     display: grid;
     grid-template-columns: 1fr 148px 1fr;
     margin: 92px 24px 90px 24px;
@@ -28,7 +27,7 @@
 
 .header__link {
     letter-spacing: 0.18px;
-    text-underline-offset:3px;
+    text-underline-offset: 3px;
 }
 
 .header__link_active {
@@ -36,8 +35,8 @@
 }
 
 .header__logo {
-   display: block;
-   min-height: 100%;
+    display: block;
+    min-height: 100%;
 }
 
 .header__logo-image {
@@ -46,17 +45,14 @@
 }
 
 .address {
-    text-underline-offset:4px ;
+    text-underline-offset: 4px;
     font-style: normal;
     line-height: 24.3px;
 }
 
 .header__address {
-    
-
     width: 240.521px;
     margin: 5px 25.48px 2px auto;
-   
 }
 
 .cover {
@@ -64,20 +60,19 @@
     z-index: 0;
     position: relative;
     background-image: url("../images/cover.jpg");
-    background-size:cover;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
-
-
 .overlay {
     position: absolute;
+    top: auto;
+    left: auto;
     z-index: -1;
     min-width: 100%;
     min-height: 100%;
-    background:rgb(0 0 0 / 0.6);
-   
+    background: rgb(0 0 0 / 0.6);
 }
 
 .grid {
@@ -88,25 +83,22 @@
 .cover__title {
     display: grid;
     color: white;
-    height: 355px;
     font-size: 100px;
     font-weight: 700;
     letter-spacing: 30px;
     text-transform: uppercase;
     grid-template-rows: 1fr 1fr 1fr;
-    margin: 150px 50px 130px 50px;
+    margin: 150px 50px 35px 50px;
     line-height: 150px;
 }
 
 .aligned-text {
-   
     grid-row: 1;
     grid-column: 1;
-   
 }
 
 .letter-spacing {
-  letter-spacing: 60px;
+    letter-spacing: 60px;
 }
 
 .no-letter-spacing {
@@ -120,7 +112,6 @@
     text-align: center;
 }
 
-
 .aligned-text_right {
     grid-row: 3;
     grid-column: 1;
@@ -132,7 +123,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: #FFF;
+    color: #fff;
     font-size: 22px;
     font-weight: 400;
     text-transform: uppercase;
@@ -144,22 +135,19 @@
     word-spacing: 18px;
 }
 
-
-
 .bet-button {
     width: 256px;
     height: 51px;
     margin-right: 51px;
     background: transparent;
     border: 1px solid currentColor;
-    font-family: Raleway;
-    color: #FFF;
+    font-family: Raleway, Arial, sans-serif, Calibri;
+    color: #fff;
     text-align: center;
     font-size: 22px;
     font-weight: 500;
     text-transform: uppercase;
 }
-
 
 .lots {
     width: 1052px;
@@ -174,40 +162,31 @@
     text-transform: uppercase;
 }
 
-
 .lots__card-list {
     display: flex;
     flex-wrap: wrap;
     gap: 25px;
     list-style: none;
-   
-    
 }
-
-
 
 .lots__card-list-item {
     position: relative;
     z-index: 1;
     flex-grow: 1;
-    width: 334px;
-    min-height: 100%;
-    background-size:cover;
+
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-  
 }
 
 .card {
- 
     padding: 51px 40px 48px 40px;
-    color: #FFF;
-    height: 100%;
+    color: #fff;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-   
- 
+    width: 334px;
+    height: 563px;
 }
 
 .card-link {
@@ -216,29 +195,23 @@
 }
 
 .card_type_film {
-    background-image:url("../images/card-lot-01.jpg");
-    
- 
+    background-image: url("../images/card-lot-01.jpg");
 }
 .card_type_book {
-    background-image:url("../images/card-lot-02.jpg");
-    
-  
+    background-image: url("../images/card-lot-02.jpg");
 }
 .card_type_picture {
-    background-image:url("../images/card-lot-03.jpg");
-    
+    background-image: url("../images/card-lot-03.jpg");
 }
 .card__title {
-    
-    color: #FFF;
+    color: #fff;
     font-size: 22px;
     text-decoration-line: underline;
     text-transform: uppercase;
 }
 
 .card__text {
-    color: #FFF;
+    color: #fff;
     font-size: 20px;
 }
 
@@ -247,8 +220,6 @@
     color: #000;
     font-size: 20px;
 }
-
-
 
 .lots__look-more-link {
     text-underline-offset: 4px;
@@ -269,7 +240,6 @@
     background-color: black;
     border-radius: 50%;
     padding: 64px 46px 62px 46px;
-    
 }
 
 .about__logo-image {
@@ -301,8 +271,6 @@
     letter-spacing: 0.1px;
 }
 
-
-
 .footer {
     width: 1000px;
     display: grid;
@@ -313,7 +281,6 @@
     font-weight: 400;
     line-height: normal;
 }
-    
 
 .footer-menu {
     text-align: center;
@@ -328,7 +295,7 @@
 }
 
 .footer__menu-link {
-    text-underline-offset:5px
+    text-underline-offset: 5px;
 }
 
 .footer__social-list {
@@ -342,7 +309,3 @@
     height: 48px;
     width: 48px;
 }
-
-
-
-
